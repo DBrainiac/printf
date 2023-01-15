@@ -106,4 +106,5 @@ int print_unsig_int(va_list valist)
 		m = (UINT_MAX + 1) - num;
 		_putchar(m + '0'), count++;
 	}
+	return (count);
 }
